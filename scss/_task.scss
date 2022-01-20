@@ -1,0 +1,16 @@
+.task {
+    width: 200px;
+    display: flex;
+    background-color: #c3c3c3;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+    &__text{
+        margin: 0 10px 0 0;
+    }
+    button {
+        height: 40%;
+        width: 40%;
+    }
+}
